@@ -25,19 +25,19 @@ s.author =     "LivePerson Inc."
 s.homepage = "https://developers.liveperson.com/apple-business-chat-sdk-overview.html"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/LivePersonInc/iOS-LPABC-SDK.git", 
+s.source = { :git => "/Users/oberger/Documents/XcodeProjects/LPABCSDK_ARTIFACT/PUBLIC_ARTIFACT.git", 
              :tag => "#{s.version}" }
 
 # 7
 #s.framework = "UIKit"
 #s.dependency 'Alamofire', '~> 4.7'
 #s.dependency 'MBProgressHUD', '~> 1.1.0'
-
+#s.framework = "LPABCSDK"
 # 8
 s.source_files = "LPABCSDK/**/*.{swift}"
 
 # 9
-s.resources = "LPABCSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "LPABCSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,_CodeSignature,CodeResources}"
 
 # 10
 s.swift_version = "4.2"
