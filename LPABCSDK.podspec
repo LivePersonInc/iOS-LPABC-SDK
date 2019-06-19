@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "LPABCSDK.framework"
     s.platform = :ios
     s.swift_version = "4.2"
-    s.ios.deployment_target  = '12.2'
+    s.ios.deployment_target  = '11.3'
 end
