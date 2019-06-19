@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    
                   LICENSE
                 }
-    s.source       = { :git => "https://github.com/LivePersonInc/iOS-LPABC-SDK.git", :tag => "#{s.version}" }
+    s.source       = { :git => "$HOME/LPABCSDK.git", :tag => "#{s.version}" }
     s.public_header_files = "LPABCSDK.framework/Headers/*.h"
     s.source_files = "LPABCSDK.framework/Headers/*.h"
     s.vendored_frameworks = "LPABCSDK.framework"
