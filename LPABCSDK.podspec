@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    
                   LICENSE
                 }
-  s.author       = { "LivePerson Inc."}
+  s.author       =   "LivePerson Inc." 
   s.source       = { :git => "https://github.com/LivePersonInc/iOS-LPABC-SDK", :tag => "#{s.version}" }
   s.source_files  = "Source/**/*.swift"
 end
