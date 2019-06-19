@@ -7,16 +7,17 @@ Pod::Spec.new do |s|
     LivePerson iOS ABC SDK: a lightweighted SDK for iMessage app/Extension and host App.
     DESC
     s.homepage     = "https://developers.liveperson.com/apple-business-chat-sdk-overview.html"
+    s.author               = "LivePerson Inc."
     s.license = { :type => 'Copyright', :text => <<-LICENSE
                    LivePerson Copyright 2019
                    
                   LICENSE
                 }
-    s.source       = { :git => "$HOME/LPABCSDK.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/LivePersonInc/iOS-LPABC-SDK.git", :tag => "1.0.0" }
     s.public_header_files = "LPABCSDK.framework/Headers/*.h"
     s.source_files = "LPABCSDK.framework/Headers/*.h"
     s.vendored_frameworks = "LPABCSDK.framework"
-    s.platform = :ios
+    s.platform = :ios , "11.3"
     s.swift_version = "4.2"
     s.ios.deployment_target  = '11.3'
 end
