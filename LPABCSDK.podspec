@@ -43,7 +43,7 @@ s.author =     "LivePerson Inc."
 s.homepage = "https://developers.liveperson.com/apple-business-chat-sdk-overview.html"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/LivePersonInc/lpabcsdk.git", 
+s.source = { :git => "https://github.com/LivePersonInc/iOS-LPABC-SDK.git", 
              :tag => "#{s.version}" }
 
 # 7
